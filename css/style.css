@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script:wght@600&family=Satisfy&family=Special+Elite&display=swap');
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Special Elite', cursive; */
+/* font-family: 'Comic Neue', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Lobster', cursive; */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lobster', cursive;
+  color: #222;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-collapse {
+  background-color:#3a2563;
+}
+.navbar-brand {
+  font-size: 200%;
+}
+.navbar a {
+  color: White;
+}
+.navbar a:hover {
+  color: red;
+}
+.navbar-nav li {
+  padding: 20px
+}
+.nav-link {
+  font-size: 1.7em !important
+}
+.carousel-inner img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.Palette img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+
+#cp1 {
+  position: absolute;
+  top:5%;
+  bottom: auto;
+  transform: translateX(-20%);
+}
+
+#cp1 h2 {
+  font-family: 'Special Elite', cursive;
+  color: white;
+  font-size: 500%;
+}
+#cp2 {
+  margin: 250px;
+  position: absolute;
+  top:-5%;
+  bottom: auto;
+  transform: translateX(60%);
+}
+
+#cp2 h2 {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  color: white;
+  font-size: 300%;
+}
+
+.Heading {
+  background-color: #563d7c;
+}
+.Heading h1 {
+  font-family: 'Satisfy', cursive;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 500%;
+  color: white;
+}
+
+.Heading2 {
+  font-family: 'Satisfy', cursive;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 800%;
+  color: black;
+
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.projects-section {
+
+  padding: 10rem 0;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 150%;
+}
+
+
+#Connect {
+  background-color: #3a2563;
+}
+#Connect h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 500%;
+  color: white;
+}
+.social a {
+  font-size: 6em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-github {
+  color: white;
+}
+.fa-instagram {
+  color: White;
+}
+.fa-bars {
+  color: white;
+}
+.fa-linkedin-in {
+  color: white;
+}
+footer img {
+  border-radius: 50%;
+}
+footer {
+  background-color: #3a2563;
+  color: #d5d5d5;
+  padding-top: 1rem;
+}
+footer h1 {
+  font-family: 'Special Elite', cursive;
+}
+footer h5 {
+  font-family: 'Special Elite', cursive;
+}
+footer p {
+  font-family: 'Special Elite', cursive;
+}
+.kalam{
+  margin-left: 380px;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+hr.light-100 {
+  width: 100%;
+  border-top: 1px solid #d5d5d5;
+  margin-top: 0.8rem;
+
+  margin-bottom: 1rem;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(../img/work.jpg);
+
+   /* Set a specific height */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1 {
+  /* The image used */
+  background-image: url(../img/type1.jpg);
+
+   /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 100%;
+  }
+  .nav-link {
+    font-size: 1.1em !important
+  }
+  .alpha-inner img {
+    height: 736px;
+    width: 414px;
+  }
+  .alpha-inner {
+    height: 736px;
+  }
+   .alpha-item {
+      max-height:100vh;
+      min-width: 100%;
+  }
+  #cp1 {
+    position: absolute;
+    top:5%;
+    bottom: auto;
+    transform: translateX(-25%);
+  }
+
+  #cp1 h2 {
+    font-family: 'Special Elite', cursive;
+    color: white;
+    font-size: 175%;
+  }
+  #cp2 {
+    margin: 100px;
+    position: absolute;
+    top:-35%;
+    bottom: auto;
+    transform: translateX(80%);
+  }
+
+  #cp2 h2 {
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+    color: white;
+    font-size: 105%;
+  }
+  .Heading {
+    background-color: #563d7c;
+  }
+  .Heading h1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    font-family: 'Satisfy', cursive;
+
+  }
+
+  .kalam {
+    margin-left: 175px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
